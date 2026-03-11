@@ -1,0 +1,19 @@
+# Personal data (uncomment these if you want to keep journal/meetings private)
+# journal/
+# meetings/
+# decisions/
+
+# System files
+.DS_Store
+*.swp
+*.swo
+*~
+
+# Gmail triage cache
+.gmail-triaged-ids
+
+# Meeting sync state
+meetings/.last-sync
+
+# Claude Code
+.claude/memory/
