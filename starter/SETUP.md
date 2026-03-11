@@ -144,7 +144,25 @@ Once you're comfortable with the basics, you can connect external tools to make 
 - **Google Meet** — auto-process meeting transcripts with `/meetsync`
 - **Trello / Todoist / Google Tasks** — task sync
 
-This requires MCP (Model Context Protocol) setup. See the main [README](../README.md) for details, or use [Rube](https://www.tryrube.com/) for the easiest setup.
+This requires MCP (Model Context Protocol) setup. The easiest option is [Rube](https://rube.app/), which gives you access to Gmail, Google Calendar, Google Docs, Trello, and 500+ other apps.
+
+**How to install Rube in Claude Code:**
+
+1. Run this in your terminal:
+   ```bash
+   claude mcp add rube --transport http https://rube.app/mcp
+   ```
+2. In Claude Code, type `/mcp` to open MCP server management
+3. Select **Rube** from the list and press enter
+4. Select **Authenticate** and press enter
+5. A browser window will open — complete the authentication there
+6. Return to Claude Code and you're ready to go
+
+After authenticating Rube, you can connect individual apps (Gmail, Google Calendar, etc.) from within Claude Code — just ask Claude to help you connect them.
+
+For DIY setup without Rube, see the [Claude Code MCP docs](https://docs.anthropic.com/en/docs/claude-code/mcp).
+
+Each slash command that needs MCP (`/gmail`, `/meetsync`) includes setup instructions — just open the command file in `.claude/commands/` to see what's needed.
 
 ---
 

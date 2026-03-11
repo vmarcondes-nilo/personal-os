@@ -7,7 +7,7 @@ Triage your email inbox — classify, prioritize, and take action. Requires Gmai
 ## Setup Required
 
 This command requires a Gmail MCP integration. Options:
-- **[Rube](https://www.tryrube.com/)** — managed MCP gateway with Gmail toolkit (easiest)
+- **[Rube](https://rube.app/)** — managed MCP gateway with Gmail toolkit (easiest)
 - **Google's official MCP server** — [github.com/anthropics/claude-code/blob/main/docs/mcp.md](https://docs.anthropic.com/en/docs/claude-code/mcp)
 - **Any MCP server** that exposes Gmail search, read, label, and draft tools
 

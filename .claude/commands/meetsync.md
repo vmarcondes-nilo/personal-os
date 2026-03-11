@@ -11,7 +11,7 @@ This command requires MCP integrations for:
 2. **Google Docs** — to read the transcript content
 
 Options:
-- **[Rube](https://www.tryrube.com/)** — managed MCP gateway with Google Calendar + Docs toolkits
+- **[Rube](https://rube.app/)** — managed MCP gateway with Google Calendar + Docs toolkits
 - **Google's official MCP servers** — see [Claude Code MCP docs](https://docs.anthropic.com/en/docs/claude-code/mcp)
 
 **How transcripts work:** If you use Google Meet with Gemini note-taking enabled, Google auto-attaches a summary doc to the calendar event after the meeting. This command finds those docs and processes them. The attachment title varies by language (e.g., "Gemini notes" in English, "Anotações do Gemini" in Portuguese).

@@ -203,9 +203,17 @@ Claude Code supports [MCP (Model Context Protocol)](https://modelcontextprotocol
 | **Trello / Todoist / Linear / Google Tasks** | Task sync in morning brief | `/morning` |
 | **Slack** | Message summaries | Custom commands |
 
-**How to connect:**
-1. **Easiest**: Use [Rube](https://www.tryrube.com/) — a managed MCP gateway that handles OAuth and exposes tools for Gmail, Calendar, Docs, Trello, and more
-2. **DIY**: Set up individual MCP servers — see the [Claude Code MCP docs](https://docs.anthropic.com/en/docs/claude-code/mcp)
+**How to connect (easiest way — Rube):**
+
+1. Run in your terminal:
+   ```bash
+   claude mcp add rube --transport http https://rube.app/mcp
+   ```
+2. In Claude Code, type `/mcp` to open MCP server management
+3. Select **Rube** → **Authenticate** → complete auth in the browser
+4. Done — connect individual apps (Gmail, Calendar, etc.) by asking Claude
+
+**Alternative:** Set up individual MCP servers manually — see the [Claude Code MCP docs](https://docs.anthropic.com/en/docs/claude-code/mcp)
 
 Each command file (`.claude/commands/gmail.md`, `meetsync.md`) includes setup instructions and explains which MCP tools are needed.
 
@@ -321,7 +329,7 @@ Os comandos `/gmail` e `/meetsync` usam integrações MCP. O `/morning` também 
 | **Trello / Todoist / Linear / Google Tasks** | Sync de tarefas no briefing | `/morning` |
 
 **Como conectar:**
-1. **Mais fácil**: Use o [Rube](https://www.tryrube.com/) — gateway MCP gerenciado que cuida do OAuth e expõe ferramentas para Gmail, Calendar, Docs, Trello e mais
+1. **Mais fácil**: Use o [Rube](https://rube.app/) — gateway MCP gerenciado que cuida do OAuth e expõe ferramentas para Gmail, Calendar, Docs, Trello e mais
 2. **Faça você mesmo**: Configure servidores MCP individuais — veja a [documentação de MCP do Claude Code](https://docs.anthropic.com/en/docs/claude-code/mcp)
 
 ### Filosofia
