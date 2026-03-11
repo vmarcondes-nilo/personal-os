@@ -19,16 +19,25 @@ Everything is stored as plain markdown files in a git repo. No lock-in, no SaaS,
 
 ## Quick Start
 
-### Prerequisites
+### Option A: Non-technical setup (no git required)
+
+If you're not comfortable with git/GitHub, use the **[starter kit](starter/)**:
+1. Download the two files from the `starter/` folder (`CLAUDE.md` and `SETUP.md`)
+2. Follow the step-by-step instructions in `SETUP.md`
+3. Claude will build the entire system for you from the CLAUDE.md file
+
+### Option B: Clone this repo (recommended for developers)
+
+#### Prerequisites
 
 - [Claude Code](https://docs.anthropic.com/en/docs/claude-code) installed and authenticated
 - Git
 
-### Setup
+#### Setup
 
 ```bash
 # Clone the repo
-git clone https://github.com/YOUR_USERNAME/personal-os.git
+git clone https://github.com/vmarcondes-nilo/personal-os.git
 cd personal-os
 
 # Fill in your profile
@@ -47,7 +56,7 @@ cd personal-os
 claude
 ```
 
-### Your First Session
+#### Your First Session
 
 Open Claude Code in the repo directory and try:
 
@@ -253,7 +262,9 @@ Seu chefe de gabinete com IA — briefings diários, revisões semanais, sessõe
 
 ### Início rápido
 
-**Pré-requisitos:** [Claude Code](https://docs.anthropic.com/en/docs/claude-code) instalado e autenticado + Git.
+**Não é técnico?** Use o [starter kit](starter/) — baixe dois arquivos, siga as instruções, e o Claude monta tudo pra você.
+
+**Para desenvolvedores:** Clone o repo e preencha seus dados.
 
 ```bash
 # Clone o repo
