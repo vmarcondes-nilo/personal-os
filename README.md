@@ -276,7 +276,7 @@ Seu chefe de gabinete com IA — briefings diários, revisões semanais, sessõe
 
 ```bash
 # Clone o repo
-git clone https://github.com/YOUR_USERNAME/personal-os.git
+git clone https://github.com/vmarcondes-nilo/personal-os.git
 cd personal-os
 
 # Preencha seu perfil
